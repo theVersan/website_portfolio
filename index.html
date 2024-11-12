@@ -34,11 +34,32 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                
+                <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#Experiência" onclick="toggleMenu()">Experiência</a></li>
+                <li><a href="#Projetos" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#Contato" onclick="toggleMenu()">Contato</a></li>
             </div>
         </div>
       
     </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/fotor-20241112181759.png" alt="profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Olá, eu sou o</p>
+            <h1 class="title">Davi Versan</h1>
+            <p class="section__text__p2">Engenheiro de Software</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"onclick="window.open('assets/Curriculo_estagio_new.pdf')">Currículo</button>
+                <button class="btn btn-color-1"onclick="location.href='./#Contato'">Contato</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin (1).png" alt="linkedin" class="icon" onclick="location.href='http://www.linkedin.com/in/daviversan'"/>
+                <img src="./assets/github (1).png" alt="GitHub" class="icon" onclick="location.href='https://github.com/theVersan'"/>
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

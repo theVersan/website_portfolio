@@ -1,0 +1,10 @@
+/* When the screen size is lower than 1200px
+the desktop navigation will disappear*/
+@media screen and (max-width: 930px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburguer-nav{
+        display: flex;
+    }
+} 
