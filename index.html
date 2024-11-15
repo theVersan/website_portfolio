@@ -11,21 +11,21 @@
 <body>
     <nav id="desktop-nav">
         <div class="logo">
-            <img src="assets\black.svg" alt="Logo" />
+            <img src="assets\white.svg" alt="Logo" />
         </div>
         <div>
             <ul class="nav-links">
-                <li><a href="Sobre">Sobre</a></li>
-                <li><a href="Experiência">Experiência</a></li>
-                <li><a href="Projetos">Projetos</a></li>
-                <li><a href="Contato">Contato</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Experiência">Experiência</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contato">Contato</a></li>
             </ul>
         </div>
         
     </nav>
     <nav id="hamburguer-nav">
         <div class="logo">
-            <img src="assets\black.svg" alt="Logo" />
+            <img src="assets\white.svg" alt="Logo" />
         </div>
         <div class="hamburguer-menu">
             <div class="hamburguer-icon" onclick="toggleMenu()">
@@ -34,7 +34,7 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#Sobre" onclick="toggleMenu()">Sobre</a></li>
                 <li><a href="#Experiência" onclick="toggleMenu()">Experiência</a></li>
                 <li><a href="#Projetos" onclick="toggleMenu()">Projetos</a></li>
                 <li><a href="#Contato" onclick="toggleMenu()">Contato</a></li>
@@ -59,6 +59,33 @@
                 <img src="./assets/github (1).png" alt="GitHub" class="icon" onclick="location.href='https://github.com/theVersan'"/>
             </div>
         </div>
+    </section>
+    <section id="Sobre">
+        <p class="section__text__p1">Saiba Mais</p>
+        <h1 class="title">Sobre mim</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets\inteli_slide.png" alt="inteli-pic" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets\experience.png" alt="Experience Icon" class="icon"/>
+                        <h3>Experiência</h3>
+                        <p>2+ years <br/>Frontend development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets\education.png" alt="education Icon" class="icon"/>
+                        <h3>Formação</h3>
+                        <p>Graduação Eng. Software <br/>Certificados</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets\arrow.png" alt=""/>
     </section>
     <script src="script.js"></script>
 </body>
